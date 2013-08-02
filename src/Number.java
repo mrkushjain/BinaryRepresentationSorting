@@ -42,10 +42,12 @@ public class Number {
     }
 
     private boolean comparisonCriteria(int arrayNumber,int currentNumber) {
-        if(new Number(arrayNumber).getNumberOfOnes() > new Number(currentNumber).getNumberOfOnes())
+        Number numberOnRight = new Number(arrayNumber);
+        Number numberOnLeft = new Number(currentNumber);
+        if(numberOnRight.getNumberOfOnes() > numberOnLeft.getNumberOfOnes())
             return true;
-        else if(arrayNumber > currentNumber)
-            return true;
+        else if(numberOnRight.getNumberOfOnes() == numberOnLeft.getNumberOfOnes())
+            return (arrayNumber > currentNumber);
         return false;
     }
 

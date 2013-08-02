@@ -22,28 +22,28 @@ public class NumberTest {
     @Test
     public void testTwoHasOnlyOneOnes(){
         assertEquals(1,new Number(2).getNumberOfOnes());
-    }
+        @Test
+        public void testThreeHasTwoOnes(){
+            assertEquals(2,new Number(3).getNumberOfOnes());
+        }
 
-    @Test
-    public void testThreeHasTwoOnes(){
-        assertEquals(2,new Number(3).getNumberOfOnes());
-    }
+        @Test
+        public void testSortingOfOneGivesOne(){
+            assertArrayEquals(new int [] {1}, new Number().sort(new int[] {1}));
+        }
 
-    @Test
-    public void testSortingOfOneGivesOne(){
-        assertArrayEquals(new int [] {1}, new Number().sort(new int[] {1}));
-    }
-
-    @Test
-    public void testSortingOfOneTwoGivesOneTwo(){
-        assertArrayEquals(new int [] {1,2}, new Number().sort(new int[] {1,2}));
-    }
+        @Test
+        public void testSortingOfOneTwoGivesOneTwo(){
+            assertArrayEquals(new int [] {1,2}, new Number().sort(new int[] {1,2}));
+        }
 
 
-    @Test
-    public void testSortingOfTwoOneThreeGivesOneTwoThree(){
-        assertArrayEquals(new int [] {1,2,3}, new Number().sort(new int[] {2,1,3}));
+        @Test
+        public void testSortingOfTwoOneThreeGivesOneTwoThree(){
+            assertArrayEquals(new int [] {1,2,3}, new Number().sort(new int[] {2,1,3}));
+        }
     }
+
 
     @Test
     public void testSortingOfThreeFourGivesFourThree(){

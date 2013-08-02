@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a0ae756-01f2-42f7-9271-bf81a8d085fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BinaryRepresentationSorting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Number.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/NumberTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Number.java" afterPath="$PROJECT_DIR$/src/Number.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/NumberTest.java" afterPath="$PROJECT_DIR$/tests/NumberTest.java" />
     </list>
     <ignored path="BinaryRepresentationSorting.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1a0ae756-01f2-42f7-9271-bf81a8d085fd" time="1375454823145" ignored="false" />
     <file path="/fragment.java" changelist="1a0ae756-01f2-42f7-9271-bf81a8d085fd" time="1375455038068" ignored="false" />
     <file path="/NumberTest.java" changelist="1a0ae756-01f2-42f7-9271-bf81a8d085fd" time="1375459031918" ignored="false" />
-    <file path="/Number.java" changelist="1a0ae756-01f2-42f7-9271-bf81a8d085fd" time="1375459976047" ignored="false" />
+    <file path="/Number.java" changelist="1a0ae756-01f2-42f7-9271-bf81a8d085fd" time="1375461867998" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +71,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Number.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Number.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="24" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.6603774">
+            <state line="49" column="49" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NumberTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/NumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="106" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+            <state line="21" column="97" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.0754717">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +109,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests/NumberTest.java" />
         <option value="$PROJECT_DIR$/src/Number.java" />
+        <option value="$PROJECT_DIR$/tests/NumberTest.java" />
       </list>
     </option>
   </component>
@@ -529,19 +528,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/NumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="106" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="49" column="49" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Number.java">
+    <entry file="file://$PROJECT_DIR$/tests/NumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="24" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.6603774">
-          <folding />
+        <state line="21" column="97" selection-start="490" selection-end="490" vertical-scroll-proportion="-0.0754717">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
